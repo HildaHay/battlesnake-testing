@@ -46,7 +46,9 @@ class Battlesnake(object):
 
         # Choose a random direction to move in
         possible_moves = ["up", "down", "left", "right"]
-        move = random.choice(possible_moves)
+        # move = random.choice(possible_moves)
+        move = possible_moves[2]
+
 
         print(f"MOVE: {move}")
         return {"move": move}
