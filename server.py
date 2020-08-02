@@ -59,9 +59,9 @@ class Battlesnake(object):
             move = possible_moves[1]
         if y == 0:
             move = possible_moves[2]
-        if x == height - 1:
+        if x == width - 1:
             move = possible_moves[0]
-        if y == width - 1:
+        if y == height - 1:
             move = possible_moves[3]
 
 
